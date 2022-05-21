@@ -106,7 +106,7 @@ function App() {
         if(topics[i].id !== id){
           newTopics.push(topics[i]);
         }
-      }
+      } 
       setTopics(newTopics);
       setMode('WELCOME');
     }} /></li>
